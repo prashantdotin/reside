@@ -32,6 +32,6 @@ flutter:
 
 flutter_launcher_icons:
   android: true
-  ios: true
-  image_path: "assets/images/reside_logo.png"
+  ios: false
+  image_path: "assets/images/reside_launcher.png"
   min_sdk_android: 21

@@ -37,23 +37,17 @@ class AppHeader extends StatelessWidget {
 
           children: [
             SizedBox(
-              width: 90,
-              height: 40,
-              child: Align(
+            width: 90,
+            height: 40,
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Image.asset(
+                'assets/images/reside_logo.png',
+                fit: BoxFit.contain,
                 alignment: Alignment.centerLeft,
-                child: Transform.scale(
-                  scale: 1.35,
-                  alignment: Alignment.centerLeft,
-                  child: Image.asset(
-                    'assets/images/reside_logo.png',
-                    width: 90,
-                    height: 40,
-                    fit: BoxFit.contain,
-                    alignment: Alignment.centerLeft,
-                  ),
-                ),
               ),
             ),
+          ),
             GestureDetector(
               onTap: onMenuTap,
 
